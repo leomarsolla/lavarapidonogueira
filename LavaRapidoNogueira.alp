@@ -150,28 +150,6 @@
 					<LevelVisibility>DIM_NON_CURRENT</LevelVisibility>
 
 			<Presentation>
-				<Image>
-					<Id>1785847602170</Id>
-					<Name><![CDATA[image]]></Name>
-					<X>0</X><Y>0</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Width>1600</Width>
-					<Height>880</Height>
-					<Rotation>0.0</Rotation>
-					<ImageFiles>
-						<ImageResourceReference>
-							<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
-							<ClassName><![CDATA[planta_lava_rapido_limpa.png]]></ClassName>
-						</ImageResourceReference>
-					</ImageFiles>
-					<OriginalSize>false</OriginalSize>
-				</Image>
 				<Wall>
 					<Id>1785847678039</Id>
 					<Name><![CDATA[wall]]></Name>
@@ -213,35 +191,16 @@
 					</Points>
 				</Wall>
 				<RectangleWall>
-					<Id>1785847710525</Id>
-					<Name><![CDATA[wall1]]></Name>
-					<X>1040</X><Y>0</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
-					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
-					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
-					<Rotation>0.0</Rotation>
-					<Width>560</Width>
-					<Height>880</Height>
-				</RectangleWall>
-				<RectangleWall>
 					<Id>1785847760444</Id>
-					<Name><![CDATA[wall2]]></Name>
-					<X>420</X><Y>180</Y>
+					<Name><![CDATA[Box1]]></Name>
+					<X>480</X><Y>144</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16776961</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
@@ -252,8 +211,65 @@
 				</RectangleWall>
 				<RectangleWall>
 					<Id>1785848074197</Id>
-					<Name><![CDATA[wall3]]></Name>
-					<X>80</X><Y>280</Y>
+					<Name><![CDATA[Vaga1]]></Name>
+					<X>0</X><Y>300</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-8355712</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>20</ZHeight>
+					<Rotation>0.0</Rotation>
+					<Width>88</Width>
+					<Height>180</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1785848593630</Id>
+					<Name><![CDATA[Vaga2]]></Name>
+					<X>90</X><Y>300</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-8355712</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>20</ZHeight>
+					<Rotation>0.0</Rotation>
+					<Width>88</Width>
+					<Height>180</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1785848597963</Id>
+					<Name><![CDATA[Vaga3]]></Name>
+					<X>180</X><Y>300</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-8355712</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>20</ZHeight>
+					<Rotation>0.0</Rotation>
+					<Width>88</Width>
+					<Height>180</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1785849484715</Id>
+					<Name><![CDATA[Sala_de_espera]]></Name>
+					<X>270</X><Y>360</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -266,8 +282,141 @@
 					<FillingType>HATCHED_AREA</FillingType>
 					<ZHeight>20</ZHeight>
 					<Rotation>0.0</Rotation>
-					<Width>88</Width>
-					<Height>180</Height>
+					<Width>160</Width>
+					<Height>120</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1785849647775</Id>
+					<Name><![CDATA[Conteiner]]></Name>
+					<X>1360</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-16744320</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>20</ZHeight>
+					<Rotation>0.0</Rotation>
+					<Width>240</Width>
+					<Height>100</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1785849698259</Id>
+					<Name><![CDATA[Depósito]]></Name>
+					<X>1040</X><Y>720</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-16777216</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>20</ZHeight>
+					<Rotation>0.0</Rotation>
+					<Width>240</Width>
+					<Height>160</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1785849737032</Id>
+					<Name><![CDATA[Tapetes]]></Name>
+					<X>780</X><Y>200</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-65536</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>20</ZHeight>
+					<Rotation>0.0</Rotation>
+					<Width>120</Width>
+					<Height>100</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1785849798559</Id>
+					<Name><![CDATA[Vestiario]]></Name>
+					<X>1480</X><Y>780</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-14774017</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>20</ZHeight>
+					<Rotation>0.0</Rotation>
+					<Width>120</Width>
+					<Height>100</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1785850021394</Id>
+					<Name><![CDATA[Aspiração]]></Name>
+					<X>750</X><Y>368</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-4565549</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>20</ZHeight>
+					<Rotation>0.0</Rotation>
+					<Width>192</Width>
+					<Height>112</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1785850022209</Id>
+					<Name><![CDATA[Box3]]></Name>
+					<X>480</X><Y>368</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-16776961</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>20</ZHeight>
+					<Rotation>0.0</Rotation>
+					<Width>192</Width>
+					<Height>112</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1785850037142</Id>
+					<Name><![CDATA[Box2]]></Name>
+					<X>480</X><Y>256</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-16776961</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>20</ZHeight>
+					<Rotation>0.0</Rotation>
+					<Width>192</Width>
+					<Height>112</Height>
 				</RectangleWall>
 			</Presentation>
 
@@ -381,14 +530,6 @@
 			<BypassInitialScreen>true</BypassInitialScreen>
 		</SimulationExperiment>	
 	</Experiments>
-	<ModelResources>
-		<Resource>
-			<Id>1785847607490</Id>
-			<Path><![CDATA[planta_lava_rapido_limpa.png]]></Path>
-			<ReferencedFromUserCode>false</ReferencedFromUserCode>
-			<Location>FILE_SYSTEM</Location>
-		</Resource>
-	</ModelResources>
     <RequiredLibraryReference>
 		<LibraryName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></LibraryName>
 		<VersionMajor>1</VersionMajor>
