@@ -647,6 +647,147 @@ for (Lavador L : lavadores) {
 }]]></Body>
 				</Function>
 			</Functions>
+			<Schedules>
+				<Schedule>
+					<Id>1785928250842</Id>
+					<Name><![CDATA[perfilChegadas]]></Name>
+					<X>230</X><Y>830</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ValueType>double_</ValueType>
+					<UnitType><![CDATA[RATE]]></UnitType>
+					<UnitOfValue Class="RateUnits"><![CDATA[PER_HOUR]]></UnitOfValue>
+					<DefaultValue>0.0</DefaultValue>
+					<RepresentationMode>intervals</RepresentationMode>
+					<RepresentationType>week</RepresentationType>
+					<FirstDayOfWeek>sunday</FirstDayOfWeek>
+					<TimeUnitsInterval>hours</TimeUnitsInterval>
+					<RepeatTime>86400000</RepeatTime>
+					<RepeatTimeInterval>days</RepeatTimeInterval>
+					<IsSnapTo>false</IsSnapTo>
+					<SnapTo>1785888000588</SnapTo>
+					<SnapToTimeUnits>minutes</SnapToTimeUnits>
+					<AllDayExceptionMode>false</AllDayExceptionMode>
+					<LoadFromDatabase><![CDATA[false]]></LoadFromDatabase>
+					<IntervalsQuery>
+						<Id>1785928250840</Id>
+						<TableReference>
+						</TableReference>
+							<StartColumnReference>
+							</StartColumnReference>
+							<EndColumnReference>
+							</EndColumnReference>
+							<ValueColumnReference>
+							</ValueColumnReference>
+					</IntervalsQuery>
+					<Intervals>
+						<Interval>
+							<Start>28800000</Start>
+							<End>32400000</End>
+							<Value>0.3947</Value>
+						</Interval>
+						<Interval>
+							<Start>32400000</Start>
+							<End>36000000</End>
+							<Value>0.222</Value>
+						</Interval>
+						<Interval>
+							<Start>36000000</Start>
+							<End>39600000</End>
+							<Value>0.1233</Value>
+						</Interval>
+						<Interval>
+							<Start>39600000</Start>
+							<End>43200000</End>
+							<Value>0.148</Value>
+						</Interval>
+						<Interval>
+							<Start>43200000</Start>
+							<End>46800000</End>
+							<Value>0.3453</Value>
+						</Interval>
+						<Interval>
+							<Start>46800000</Start>
+							<End>50400000</End>
+							<Value>0.222</Value>
+						</Interval>
+						<Interval>
+							<Start>50400000</Start>
+							<End>54000000</End>
+							<Value>0.1233</Value>
+						</Interval>
+						<Interval>
+							<Start>54000000</Start>
+							<End>57600000</End>
+							<Value>0.148</Value>
+						</Interval>
+						<Interval>
+							<Start>57600000</Start>
+							<End>61200000</End>
+							<Value>0.3207</Value>
+						</Interval>
+						<Interval>
+							<Start>61200000</Start>
+							<End>64800000</End>
+							<Value>0.4193</Value>
+						</Interval>
+						<Interval>
+							<Start>115200000</Start>
+							<End>118800000</End>
+							<Value>0.464</Value>
+						</Interval>
+						<Interval>
+							<Start>118800000</Start>
+							<End>122400000</End>
+							<Value>0.261</Value>
+						</Interval>
+						<Interval>
+							<Start>122400000</Start>
+							<End>126000000</End>
+							<Value>0.145</Value>
+						</Interval>
+						<Interval>
+							<Start>126000000</Start>
+							<End>129600000</End>
+							<Value>0.174</Value>
+						</Interval>
+						<Interval>
+							<Start>129600000</Start>
+							<End>133200000</End>
+							<Value>0.406</Value>
+						</Interval>
+						<Interval>
+							<Start>133200000</Start>
+							<End>136800000</End>
+							<Value>0.261</Value>
+						</Interval>
+						<Interval>
+							<Start>136800000</Start>
+							<End>140400000</End>
+							<Value>0.145</Value>
+						</Interval>
+						<Interval>
+							<Start>140400000</Start>
+							<End>144000000</End>
+							<Value>0.174</Value>
+						</Interval>
+						<Interval>
+							<Start>144000000</Start>
+							<End>147600000</End>
+							<Value>0.377</Value>
+						</Interval>
+						<Interval>
+							<Start>147600000</Start>
+							<End>151200000</End>
+							<Value>0.493</Value>
+						</Interval>
+					</Intervals>
+					<Exceptions>
+					</Exceptions>
+				</Schedule>
+			</Schedules>
 			<AgentLinks>
 				<AgentLink>
 					<Id>1785780458363</Id>
@@ -786,6 +927,10 @@ for (Lavador L : lavadores) {
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[speed]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[1.4]]></Code>
+								<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[newEntity]]></Name>
@@ -3868,7 +4013,7 @@ for (Lavador L : lavadores) {
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>270.0</Rotation>	
+					<Rotation>0.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1785878087649</Id>
@@ -3880,7 +4025,7 @@ for (Lavador L : lavadores) {
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>270.0</Rotation>	
+					<Rotation>0.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1785878087651</Id>
@@ -3892,7 +4037,7 @@ for (Lavador L : lavadores) {
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>270.0</Rotation>	
+					<Rotation>0.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1785878087653</Id>
@@ -3904,7 +4049,7 @@ for (Lavador L : lavadores) {
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>270.0</Rotation>	
+					<Rotation>0.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1785878087655</Id>
@@ -3916,7 +4061,7 @@ for (Lavador L : lavadores) {
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>270.0</Rotation>	
+					<Rotation>0.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1785878087657</Id>
@@ -3928,7 +4073,7 @@ for (Lavador L : lavadores) {
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>270.0</Rotation>	
+					<Rotation>0.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1785878087659</Id>
@@ -3940,7 +4085,7 @@ for (Lavador L : lavadores) {
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>270.0</Rotation>	
+					<Rotation>0.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1785878087661</Id>
@@ -3952,7 +4097,7 @@ for (Lavador L : lavadores) {
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>270.0</Rotation>	
+					<Rotation>0.0</Rotation>	
 				</Attractor>
 			</Presentation>
 
@@ -4726,6 +4871,19 @@ for (Lavador L : lavadores) {
 
 					<Z>0</Z>
 				</Network>
+				<Control Type="Window3D">
+					<Id>1785899106620</Id>
+					<Name><![CDATA[window3d]]></Name>
+					<X>1600</X><Y>0</Y>
+					<Width>500</Width>
+					<Height>300</Height>
+					<MakeDefaultViewArea>true</MakeDefaultViewArea>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ShowLabel>false</ShowLabel>
+					<FollowCamera>false</FollowCamera>
+					<NavigationType>full</NavigationType>
+					<FarClippingDistance>2000</FarClippingDistance>
+				</Control>
 			</Presentation>
 
 				</Level>
@@ -4763,8 +4921,8 @@ for (Lavador L : lavadores) {
 				<RotateAnimationTowardsMovement>true</RotateAnimationTowardsMovement>
 				<RotateAnimationVertically>false</RotateAnimationVertically>
 				<VelocityCode Class="CodeUnitValue">
-					<Code><![CDATA[1]]></Code>
-					<Unit Class="SpeedUnits"><![CDATA[KPH]]></Unit>
+					<Code><![CDATA[1.4]]></Code>
+					<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
 				</VelocityCode>
 				<PhysicalLength Class="CodeUnitValue">
 					<Code><![CDATA[1]]></Code>
@@ -4916,7 +5074,7 @@ for (Lavador L : lavadores) {
 						</ColorMapping>
 					</ColorTable>
 					<AutoScale>true</AutoScale>
-					<Scale>0.25</Scale>
+					<Scale>1.0</Scale>
 					<Rotation>0.0</Rotation>
 					<AxisOrder>YZX_AXIS_ORDER</AxisOrder>
 					<SelectedAnimationPose></SelectedAnimationPose>
@@ -4961,7 +5119,7 @@ for (Lavador L : lavadores) {
 				<RotateAnimationTowardsMovement>true</RotateAnimationTowardsMovement>
 				<RotateAnimationVertically>false</RotateAnimationVertically>
 				<VelocityCode Class="CodeUnitValue">
-					<Code><![CDATA[10]]></Code>
+					<Code><![CDATA[1.4]]></Code>
 					<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
 				</VelocityCode>
 				<PhysicalLength Class="CodeUnitValue">
@@ -5176,13 +5334,13 @@ for (Lavador L : lavadores) {
 				<Figure3D>
 					<Id>1785888278749</Id>
 					<Name><![CDATA[person]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>0</X><Y>-10</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>0</X><Y>0</Y><Z>0</Z>
+					<X>0</X><Y>-10</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
