@@ -617,7 +617,7 @@
 					<ReturnType><![CDATA[double]]></ReturnType>
 					<Id>1785886850871</Id>
 					<Name><![CDATA[configurarLavadores]]></Name>
-					<X>520</X><Y>780</Y>
+					<X>520</X><Y>740</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
