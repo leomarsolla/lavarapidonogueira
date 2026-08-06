@@ -118,7 +118,7 @@
 				<Output>
 					<Id>1785963673340</Id>
 					<Name><![CDATA[outAtendidosSemana]]></Name>
-					<X>940</X><Y>-150</Y>
+					<X>1000</X><Y>-160</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -138,7 +138,7 @@
 				<Output>
 					<Id>1785963697379</Id>
 					<Name><![CDATA[outRecusadosSabado]]></Name>
-					<X>940</X><Y>-120</Y>
+					<X>1000</X><Y>-130</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -158,7 +158,7 @@
 				<Output>
 					<Id>1785963719255</Id>
 					<Name><![CDATA[outLeadTime]]></Name>
-					<X>940</X><Y>-90</Y>
+					<X>1000</X><Y>-100</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -176,29 +176,9 @@
 					<ComputationDate>1786003200000</ComputationDate>
 				</Output>
 				<Output>
-					<Id>1785963734520</Id>
-					<Name><![CDATA[outEsperaSabado]]></Name>
-					<X>940</X><Y>-60</Y>
-					<Label><X>15</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Type><![CDATA[double]]></Type>
-					<UnitType><![CDATA[NONE]]></UnitType>
-					<Value Class="CodeValue">
-						<Code><![CDATA[mediaEspera(7)]]></Code>
-					</Value>
-					<ComputationMoment>ON_SIMULATION_END</ComputationMoment>
-					<ComputationTimeCode Class="CodeUnitValue">
-						<Code><![CDATA[]]></Code>
-						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-					</ComputationTimeCode>
-					<ComputationDate>1786003200000</ComputationDate>
-				</Output>
-				<Output>
 					<Id>1785963750906</Id>
 					<Name><![CDATA[outTempoParado]]></Name>
-					<X>940</X><Y>-30</Y>
+					<X>1000</X><Y>-70</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -218,7 +198,7 @@
 				<Output>
 					<Id>1785963765154</Id>
 					<Name><![CDATA[outPiorEsperaSabado]]></Name>
-					<X>1130</X><Y>-90</Y>
+					<X>1000</X><Y>-190</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -240,7 +220,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1785932675311</Id>
 					<Name><![CDATA[multMes]]></Name>
-					<X>30</X><Y>510</Y>
+					<X>20</X><Y>500</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -255,7 +235,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1785933622497</Id>
 					<Name><![CDATA[vagasPatio]]></Name>
-					<X>30</X><Y>550</Y>
+					<X>140</X><Y>580</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -270,7 +250,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1785934870143</Id>
 					<Name><![CDATA[somaEspera]]></Name>
-					<X>250</X><Y>510</Y>
+					<X>140</X><Y>500</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -285,7 +265,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1785934876351</Id>
 					<Name><![CDATA[nEspera]]></Name>
-					<X>250</X><Y>550</Y>
+					<X>140</X><Y>520</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -300,7 +280,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1785937692230</Id>
 					<Name><![CDATA[chegadosDia]]></Name>
-					<X>440</X><Y>510</Y>
+					<X>140</X><Y>620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -315,7 +295,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1785963282911</Id>
 					<Name><![CDATA[recusadosDia]]></Name>
-					<X>30</X><Y>590</Y>
+					<X>140</X><Y>600</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -330,7 +310,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1785977157140</Id>
 					<Name><![CDATA[piorEsperaSabado]]></Name>
-					<X>600</X><Y>510</Y>
+					<X>140</X><Y>540</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -342,10 +322,25 @@
 						</InitialValue>
 					</Properties>
 				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1785989418804</Id>
+					<Name><![CDATA[histServico]]></Name>
+					<X>140</X><Y>560</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[HistogramData]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[new HistogramSmartData(40, 5, true, true, 0.025, 0.975)]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
 				<Variable Class="Parameter">
 					<Id>1785934884003</Id>
 					<Name><![CDATA[pDiaPolimento]]></Name>
-					<X>440</X><Y>540</Y>
+					<X>290</X><Y>500</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -369,7 +364,7 @@
 				<Variable Class="Parameter">
 					<Id>1785955116293</Id>
 					<Name><![CDATA[durPolimento]]></Name>
-					<X>440</X><Y>570</Y>
+					<X>290</X><Y>530</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -393,7 +388,7 @@
 				<Variable Class="Parameter">
 					<Id>1785963386631</Id>
 					<Name><![CDATA[nSemanas]]></Name>
-					<X>440</X><Y>600</Y>
+					<X>290</X><Y>560</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -414,12 +409,36 @@
 						</ParameterEditor>
 					</Properties>                 
 				</Variable>
+				<Variable Class="Parameter">
+					<Id>1785991723734</Id>
+					<Name><![CDATA[fracAspiracao]]></Name>
+					<X>290</X><Y>590</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[double]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[0.5]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1785991723732</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
 			</Variables>
 			<Connectors>
 				<Connector>
 					<Id>1785872829116</Id>
 					<Name><![CDATA[connector1]]></Name>
-					<X>490</X><Y>970</Y>
+					<X>740</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -446,13 +465,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-65</X><Y>0</Y></Point>
+						<Point><X>-80</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785872858957</Id>
 					<Name><![CDATA[connector3]]></Name>
-					<X>810</X><Y>970</Y>
+					<X>1360</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -479,13 +498,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-80</X><Y>0</Y></Point>
+						<Point><X>-90</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785879441262</Id>
 					<Name><![CDATA[connector4]]></Name>
-					<X>920</X><Y>970</Y>
+					<X>1490</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -512,13 +531,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-70</X><Y>0</Y></Point>
+						<Point><X>-90</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785879480545</Id>
 					<Name><![CDATA[connector5]]></Name>
-					<X>1030</X><Y>970</Y>
+					<X>1630</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -545,13 +564,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-70</X><Y>0</Y></Point>
+						<Point><X>-100</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785879519261</Id>
 					<Name><![CDATA[connector6]]></Name>
-					<X>1160</X><Y>970</Y>
+					<X>1760</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -559,7 +578,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[aspiracaoInterna]]></ItemName>
+						<ItemName><![CDATA[aspiracao]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -584,7 +603,7 @@
 				<Connector>
 					<Id>1785879649401</Id>
 					<Name><![CDATA[connector9]]></Name>
-					<X>1490</X><Y>970</Y>
+					<X>2950</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -611,13 +630,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-70</X><Y>0</Y></Point>
+						<Point><X>-90</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785888998810</Id>
 					<Name><![CDATA[connector]]></Name>
-					<X>90</X><Y>1010</Y>
+					<X>90</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -644,13 +663,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-60</X><Y>-40</Y></Point>
+						<Point><X>-60</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785889061015</Id>
 					<Name><![CDATA[connector12]]></Name>
-					<X>100</X><Y>1100</Y>
+					<X>100</X><Y>1050</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -677,13 +696,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>0</X><Y>-80</Y></Point>
+						<Point><X>0</X><Y>-70</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785892863979</Id>
 					<Name><![CDATA[connector14]]></Name>
-					<X>580</X><Y>970</Y>
+					<X>870</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -710,13 +729,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-50</X><Y>0</Y></Point>
+						<Point><X>-90</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785938323375</Id>
 					<Name><![CDATA[connector15]]></Name>
-					<X>320</X><Y>970</Y>
+					<X>530</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -743,13 +762,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>65</X><Y>0</Y></Point>
+						<Point><X>90</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785939021641</Id>
 					<Name><![CDATA[connector10]]></Name>
-					<X>1630</X><Y>970</Y>
+					<X>3080</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -776,13 +795,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-100</X><Y>0</Y></Point>
+						<Point><X>-90</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785955406640</Id>
 					<Name><![CDATA[connector17]]></Name>
-					<X>170</X><Y>1430</Y>
+					<X>110</X><Y>1150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -815,7 +834,7 @@
 				<Connector>
 					<Id>1785955418346</Id>
 					<Name><![CDATA[connector18]]></Name>
-					<X>300</X><Y>1430</Y>
+					<X>240</X><Y>1150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -848,7 +867,7 @@
 				<Connector>
 					<Id>1785955432425</Id>
 					<Name><![CDATA[connector19]]></Name>
-					<X>420</X><Y>1430</Y>
+					<X>360</X><Y>1150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -881,7 +900,7 @@
 				<Connector>
 					<Id>1785955439890</Id>
 					<Name><![CDATA[connector20]]></Name>
-					<X>540</X><Y>1430</Y>
+					<X>480</X><Y>1150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -914,7 +933,7 @@
 				<Connector>
 					<Id>1785955449717</Id>
 					<Name><![CDATA[connector21]]></Name>
-					<X>690</X><Y>1430</Y>
+					<X>630</X><Y>1150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -947,7 +966,7 @@
 				<Connector>
 					<Id>1785957783370</Id>
 					<Name><![CDATA[connector16]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>3190</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -973,14 +992,14 @@
 						<ItemName><![CDATA[out]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>1720</X><Y>970</Y></Point>
-						<Point><X>1670</X><Y>970</Y></Point>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-70</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785960530862</Id>
 					<Name><![CDATA[connector22]]></Name>
-					<X>1760</X><Y>970</Y>
+					<X>3230</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1007,13 +1026,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>30</X><Y>0</Y></Point>
+						<Point><X>80</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785960604687</Id>
 					<Name><![CDATA[connector2]]></Name>
-					<X>620</X><Y>970</Y>
+					<X>910</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1040,13 +1059,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>10</X><Y>0</Y></Point>
+						<Point><X>80</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785960647723</Id>
 					<Name><![CDATA[connector25]]></Name>
-					<X>640</X><Y>970</Y>
+					<X>1000</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1073,13 +1092,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>20</X><Y>0</Y></Point>
+						<Point><X>110</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785960647725</Id>
 					<Name><![CDATA[connector26]]></Name>
-					<X>670</X><Y>970</Y>
+					<X>1120</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1106,79 +1125,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>20</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1785960667927</Id>
-					<Name><![CDATA[connector7]]></Name>
-					<X>1270</X><Y>970</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[releaseAspirador]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Release]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[tmeServico]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[TimeMeasureEnd]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-30</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1785960667929</Id>
-					<Name><![CDATA[connector27]]></Name>
-					<X>1230</X><Y>970</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[tmeServico]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[TimeMeasureEnd]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[aspiracaoInterna]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Delay]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-30</X><Y>0</Y></Point>
+						<Point><X>110</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785960695677</Id>
 					<Name><![CDATA[connector8]]></Name>
-					<X>1380</X><Y>970</Y>
+					<X>2820</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1205,13 +1158,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-30</X><Y>0</Y></Point>
+						<Point><X>-90</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785960695679</Id>
 					<Name><![CDATA[connector28]]></Name>
-					<X>1340</X><Y>970</Y>
+					<X>2720</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1238,13 +1191,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-30</X><Y>0</Y></Point>
+						<Point><X>-90</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785960829566</Id>
 					<Name><![CDATA[connector24]]></Name>
-					<X>1800</X><Y>970</Y>
+					<X>3320</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1271,13 +1224,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>70</X><Y>0</Y></Point>
+						<Point><X>90</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785960829568</Id>
 					<Name><![CDATA[connector29]]></Name>
-					<X>1880</X><Y>970</Y>
+					<X>3420</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1304,13 +1257,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>60</X><Y>0</Y></Point>
+						<Point><X>80</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785962896937</Id>
 					<Name><![CDATA[connector11]]></Name>
-					<X>130</X><Y>1010</Y>
+					<X>170</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1337,13 +1290,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-20</X><Y>0</Y></Point>
+						<Point><X>-60</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785962977477</Id>
 					<Name><![CDATA[connector13]]></Name>
-					<X>240</X><Y>970</Y>
+					<X>400</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1370,13 +1323,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>40</X><Y>0</Y></Point>
+						<Point><X>90</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785962981438</Id>
 					<Name><![CDATA[connector23]]></Name>
-					<X>180</X><Y>1010</Y>
+					<X>270</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1403,13 +1356,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-40</X><Y>0</Y></Point>
+						<Point><X>-90</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1785962990942</Id>
 					<Name><![CDATA[connector30]]></Name>
-					<X>190</X><Y>1010</Y>
+					<X>280</X><Y>970</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1436,7 +1389,172 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>10</X><Y>-40</Y></Point>
+						<Point><X>80</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1785991872770</Id>
+					<Name><![CDATA[connector31]]></Name>
+					<X>200</X><Y>-130</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[limpezaInterna]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Delay]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[moveParaInterno]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[MoveTo]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>1920</X><Y>1100</Y></Point>
+						<Point><X>1850</X><Y>1100</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1785991951124</Id>
+					<Name><![CDATA[connector27]]></Name>
+					<X>1800</X><Y>970</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[aspiracao]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Delay]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[moveParaInterno]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[MoveTo]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>210</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1785992011826</Id>
+					<Name><![CDATA[connector7]]></Name>
+					<X>2160</X><Y>970</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[limpezaInterna]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Delay]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[tmeServico]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[TimeMeasureEnd]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>60</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1785992019944</Id>
+					<Name><![CDATA[connector32]]></Name>
+					<X>2230</X><Y>970</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[tmeServico]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[TimeMeasureEnd]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[releaseLavador]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Release]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>150</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1785992023050</Id>
+					<Name><![CDATA[connector33]]></Name>
+					<X>2420</X><Y>970</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[releaseLavador]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Release]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[releaseAspirador]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Release]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>170</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 			</Connectors>
@@ -1444,7 +1562,7 @@
 				<Event>
 					<Id>1785955285621</Id>
 					<Name><![CDATA[eventoPolimento]]></Name>
-					<X>170</X><Y>1530</Y>
+					<X>20</X><Y>1190</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1482,7 +1600,7 @@ if (d != SATURDAY && d != SUNDAY && randomTrue(pDiaPolimento))
 					<ReturnType><![CDATA[double]]></ReturnType>
 					<Id>1785886850871</Id>
 					<Name><![CDATA[configurarLavadores]]></Name>
-					<X>520</X><Y>740</Y>
+					<X>830</X><Y>600</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1516,7 +1634,7 @@ for (Lavador L : lavadores) {
 					<ReturnType><![CDATA[double]]></ReturnType>
 					<Id>1785935138332</Id>
 					<Name><![CDATA[mediaEspera]]></Name>
-					<X>250</X><Y>590</Y>
+					<X>830</X><Y>630</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1527,12 +1645,39 @@ for (Lavador L : lavadores) {
 					</Parameter>
 					<Body><![CDATA[return nEspera[dia] > 0 ? somaEspera[dia] / nEspera[dia] : 0;]]></Body>
 				</Function>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnModificator>RETURNS_VALUE</ReturnModificator>
+					<ReturnType><![CDATA[Lavador]]></ReturnType>
+					<Id>1785990264525</Id>
+					<Name><![CDATA[sortearLavador]]></Name>
+					<X>830</X><Y>660</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[double[] w = {73, 92, 101, 114, 117, 96, 117, 52, 44};
+double soma = 0;
+for (double x : w) soma += x;
+double r = uniform(0, soma);
+double acc = 0;
+int alvo = 0;
+for (int i = 0; i < w.length; i++) {
+    acc += w[i];
+    if (r < acc) { alvo = i; break; }
+}
+int k = 0;
+for (Lavador L : lavadores) {
+    if (k == alvo) return L;
+    k++;
+}
+return null;]]></Body>
+				</Function>
 			</Functions>
 			<Schedules>
 				<Schedule>
 					<Id>1785928250842</Id>
 					<Name><![CDATA[perfilChegadas]]></Name>
-					<X>230</X><Y>830</Y>
+					<X>830</X><Y>570</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2113,7 +2258,9 @@ for (Lavador L : lavadores) {
 							<Value Class="CodeValue">
 								<Code><![CDATA[agent.diaChegada = getDayOfWeek();
 agent.tChegada   = time();
-chegadosDia[agent.diaChegada]++;]]></Code>
+chegadosDia[agent.diaChegada]++;
+agent.lavador = sortearLavador();
+agent.tInterna = lognormal(agent.lavador.muInterna, agent.lavador.sigmaInterna, 0);]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -2148,7 +2295,7 @@ chegadosDia[agent.diaChegada]++;]]></Code>
 				<EmbeddedObject>
 					<Id>1785867343866</Id>
 					<Name><![CDATA[filaEntrada]]></Name>
-					<X>385</X><Y>950</Y>
+					<X>620</X><Y>950</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2203,6 +2350,9 @@ chegadosDia[agent.diaChegada]++;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[forceStatisticsCollection]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
@@ -2251,7 +2401,7 @@ chegadosDia[agent.diaChegada]++;]]></Code>
 				<EmbeddedObject>
 					<Id>1785867376300</Id>
 					<Name><![CDATA[sinkSaida]]></Name>
-					<X>1940</X><Y>960</Y>
+					<X>3500</X><Y>960</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2303,8 +2453,8 @@ chegadosDia[agent.diaChegada]++;]]></Code>
 				<EmbeddedObject>
 					<Id>1785867507002</Id>
 					<Name><![CDATA[boxes]]></Name>
-					<X>220</X><Y>760</Y>
-					<Label><X>-30</X><Y>-20</Y></Label>
+					<X>820</X><Y>520</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -2556,7 +2706,7 @@ chegadosDia[agent.diaChegada]++;]]></Code>
 				<EmbeddedObject>
 					<Id>1785872827367</Id>
 					<Name><![CDATA[seizeBox]]></Name>
-					<X>490</X><Y>950</Y>
+					<X>740</X><Y>950</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2718,9 +2868,6 @@ chegadosDia[agent.diaChegada]++;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onSeizeUnit]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[if (unit instanceof Lavador) agent.lavador = (Lavador) unit;]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPrepareUnit]]></Name>
@@ -2775,7 +2922,7 @@ chegadosDia[agent.diaChegada]++;]]></Code>
 				<EmbeddedObject>
 					<Id>1785872837809</Id>
 					<Name><![CDATA[lavagemExterna]]></Name>
-					<X>690</X><Y>950</Y>
+					<X>1230</X><Y>950</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2823,6 +2970,9 @@ chegadosDia[agent.diaChegada]++;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[forceStatisticsCollection]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
@@ -2830,7 +2980,8 @@ chegadosDia[agent.diaChegada]++;]]></Code>
 								<Code><![CDATA[somaEspera[agent.diaChegada] += time() - agent.tChegada;
 nEspera[agent.diaChegada]++;
 double e = time() - agent.tChegada;
-if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Code>
+if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;
+agent.tInicioEtapa = time(MINUTE);]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -2838,6 +2989,9 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.tServico += time(MINUTE) - agent.tInicioEtapa;]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
@@ -2871,7 +3025,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785872857260</Id>
 					<Name><![CDATA[releaseBox]]></Name>
-					<X>810</X><Y>950</Y>
+					<X>1360</X><Y>950</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2968,8 +3122,8 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785879252064</Id>
 					<Name><![CDATA[aspirador]]></Name>
-					<X>300</X><Y>760</Y>
-					<Label><X>-30</X><Y>-20</Y></Label>
+					<X>900</X><Y>520</Y>
+					<Label><X>-15</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -3221,7 +3375,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785879305455</Id>
 					<Name><![CDATA[moveParaAspiracao]]></Name>
-					<X>920</X><Y>950</Y>
+					<X>1490</X><Y>950</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3363,7 +3517,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785879478781</Id>
 					<Name><![CDATA[seizeAspirador]]></Name>
-					<X>1030</X><Y>950</Y>
+					<X>1630</X><Y>950</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3567,8 +3721,8 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1785879517308</Id>
-					<Name><![CDATA[aspiracaoInterna]]></Name>
-					<X>1160</X><Y>950</Y>
+					<Name><![CDATA[aspiracao]]></Name>
+					<X>1760</X><Y>950</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3591,7 +3745,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[lognormal(agent.lavador.muInterna, agent.lavador.sigmaInterna, 0)]]></Code>
+								<Code><![CDATA[agent.tInterna * fracAspiracao]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 							</Value>
 						</Parameter>
@@ -3618,15 +3772,24 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[forceStatisticsCollection]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.tInicioEtapa = time(MINUTE);]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onAtExit]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.tServico += time(MINUTE) - agent.tInicioEtapa;]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
@@ -3660,7 +3823,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785879596381</Id>
 					<Name><![CDATA[releaseAspirador]]></Name>
-					<X>1270</X><Y>950</Y>
+					<X>2590</X><Y>950</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3692,7 +3855,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 						<Parameter>
 							<Name><![CDATA[resources]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[{ aspirador, lavadores }]]></Code>
+								<Code><![CDATA[{ aspirador }]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3757,7 +3920,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785879631461</Id>
 					<Name><![CDATA[moveParaProntos]]></Name>
-					<X>1380</X><Y>950</Y>
+					<X>2820</X><Y>950</Y>
 					<Label><X>-15</X><Y>-30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3899,7 +4062,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785879647692</Id>
 					<Name><![CDATA[aguardaRetirada]]></Name>
-					<X>1490</X><Y>950</Y>
+					<X>2950</X><Y>950</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3949,6 +4112,9 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[forceStatisticsCollection]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
@@ -3991,8 +4157,8 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785886313298</Id>
 					<Name><![CDATA[lavadores]]></Name>
-					<X>380</X><Y>760</Y>
-					<Label><X>-30</X><Y>-20</Y></Label>
+					<X>980</X><Y>520</Y>
+					<Label><X>-15</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -4306,8 +4472,8 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785888978428</Id>
 					<Name><![CDATA[selectOutput]]></Name>
-					<X>80</X><Y>1000</Y>
-					<Label><X>-35</X><Y>-25</Y></Label>
+					<X>80</X><Y>960</Y>
+					<Label><X>10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -4383,7 +4549,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785889058751</Id>
 					<Name><![CDATA[sinkRecusados]]></Name>
-					<X>100</X><Y>1090</Y>
+					<X>100</X><Y>1040</Y>
 					<Label><X>25</X><Y>10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4438,7 +4604,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785892772686</Id>
 					<Name><![CDATA[moveparapatio]]></Name>
-					<X>200</X><Y>950</Y>
+					<X>360</X><Y>950</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4580,7 +4746,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785892862394</Id>
 					<Name><![CDATA[moveparabox]]></Name>
-					<X>580</X><Y>950</Y>
+					<X>870</X><Y>950</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4728,8 +4894,8 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785938318295</Id>
 					<Name><![CDATA[atendimentoChegada]]></Name>
-					<X>280</X><Y>950</Y>
-					<Label><X>-35</X><Y>-30</Y></Label>
+					<X>490</X><Y>950</Y>
+					<Label><X>-30</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -4778,6 +4944,9 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[forceStatisticsCollection]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
@@ -4820,7 +4989,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785939020353</Id>
 					<Name><![CDATA[pagamento]]></Name>
-					<X>1630</X><Y>950</Y>
+					<X>3080</X><Y>950</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4870,6 +5039,9 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[forceStatisticsCollection]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
@@ -4912,8 +5084,8 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785955193605</Id>
 					<Name><![CDATA[sourcePolimento]]></Name>
-					<X>60</X><Y>1420</Y>
-					<Label><X>-40</X><Y>45</Y></Label>
+					<X>0</X><Y>1140</Y>
+					<Label><X>-30</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -5146,7 +5318,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785955405446</Id>
 					<Name><![CDATA[seizePolimento]]></Name>
-					<X>170</X><Y>1410</Y>
+					<X>110</X><Y>1130</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5360,7 +5532,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785955417001</Id>
 					<Name><![CDATA[movePolimBox]]></Name>
-					<X>300</X><Y>1410</Y>
+					<X>240</X><Y>1130</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5505,7 +5677,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785955430294</Id>
 					<Name><![CDATA[delayPolimento]]></Name>
-					<X>420</X><Y>1410</Y>
+					<X>360</X><Y>1130</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5529,7 +5701,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
 								<Code><![CDATA[durPolimento]]></Code>
-								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5594,7 +5766,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785955437093</Id>
 					<Name><![CDATA[releasePolimento]]></Name>
-					<X>540</X><Y>1410</Y>
+					<X>480</X><Y>1130</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5685,7 +5857,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785955447922</Id>
 					<Name><![CDATA[sinkPolimento]]></Name>
-					<X>690</X><Y>1420</Y>
+					<X>630</X><Y>1140</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5737,7 +5909,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785957781444</Id>
 					<Name><![CDATA[moveSaida]]></Name>
-					<X>1720</X><Y>950</Y>
+					<X>3190</X><Y>950</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5879,8 +6051,8 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785960490443</Id>
 					<Name><![CDATA[tmsLead]]></Name>
-					<X>180</X><Y>990</Y>
-					<Label><X>30</X><Y>25</Y></Label>
+					<X>270</X><Y>950</Y>
+					<Label><X>-25</X><Y>45</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -5928,7 +6100,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785960529160</Id>
 					<Name><![CDATA[tmeLead]]></Name>
-					<X>1770</X><Y>950</Y>
+					<X>3290</X><Y>950</Y>
 					<Label><X>-10</X><Y>45</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5989,8 +6161,8 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785960602668</Id>
 					<Name><![CDATA[tmeEspera]]></Name>
-					<X>610</X><Y>950</Y>
-					<Label><X>-45</X><Y>50</Y></Label>
+					<X>970</X><Y>950</Y>
+					<Label><X>-10</X><Y>40</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -6050,8 +6222,8 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785960646402</Id>
 					<Name><![CDATA[tmsServico]]></Name>
-					<X>660</X><Y>950</Y>
-					<Label><X>-5</X><Y>45</Y></Label>
+					<X>1110</X><Y>950</Y>
+					<Label><X>-30</X><Y>45</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -6099,7 +6271,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785960666307</Id>
 					<Name><![CDATA[tmeServico]]></Name>
-					<X>1210</X><Y>950</Y>
+					<X>2200</X><Y>950</Y>
 					<Label><X>-10</X><Y>40</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6160,7 +6332,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785960694409</Id>
 					<Name><![CDATA[tmsPatio]]></Name>
-					<X>1340</X><Y>950</Y>
+					<X>2720</X><Y>950</Y>
 					<Label><X>-25</X><Y>40</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6209,7 +6381,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785960828347</Id>
 					<Name><![CDATA[tmePatio]]></Name>
-					<X>1850</X><Y>950</Y>
+					<X>3390</X><Y>950</Y>
 					<Label><X>0</X><Y>45</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6270,7 +6442,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<EmbeddedObject>
 					<Id>1785962864754</Id>
 					<Name><![CDATA[tmsLead2]]></Name>
-					<X>130</X><Y>990</Y>
+					<X>170</X><Y>950</Y>
 					<Label><X>-15</X><Y>40</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6309,6 +6481,344 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 					<InitializationType>SPECIFIED_NUMBER</InitializationType>
 					<InitializationDatabaseTableQuery>
 						<Id>1785962864752</Id>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1785991856177</Id>
+					<Name><![CDATA[moveParaInterno]]></Name>
+					<X>2010</X><Y>950</Y>
+					<Label><X>-15</X><Y>-15</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[MoveTo]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+							<ClassName><![CDATA[MoveTo]]></ClassName>
+							<ItemName><![CDATA[1412336243157]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[mode]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationType]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationNode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[nodeInterno]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationAttractor]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationResource]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationAgent]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationX]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationY]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationZ]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationLatitude]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationLongitude]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationGeoPlaceName]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationInNetwork]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationNetwork]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationLevel]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[useOffsets]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[offsetX]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[offsetY]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[offsetZ]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[straightMovement]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationUseRotation]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationRotation]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destinationVerticalRotation]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[movementType]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[tripTime]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[setSpeed]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[speed]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[restoreSpeedOnArrival]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onRemove]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>XYZ</InitialLocationType>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<Id>1785991856175</Id>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1785991870661</Id>
+					<Name><![CDATA[limpezaInterna]]></Name>
+					<X>2120</X><Y>950</Y>
+					<Label><X>-5</X><Y>-15</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Delay]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+							<ClassName><![CDATA[Delay]]></ClassName>
+							<ItemName><![CDATA[1412336242930]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[type]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[agent.tInterna * (1 - fracAspiracao)]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[capacity]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[maximumCapacity]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[entityLocation]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[nodeInterno]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[pushProtocol]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[forceStatisticsCollection]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.tInicioEtapa = time(MINUTE);]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onAtExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.tServico += time(MINUTE) - agent.tInicioEtapa;
+histServico.add(agent.tServico);]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onRemove]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>XYZ</InitialLocationType>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<Id>1785991870659</Id>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1785991884666</Id>
+					<Name><![CDATA[releaseLavador]]></Name>
+					<X>2380</X><Y>950</Y>
+					<Label><X>-10</X><Y>-15</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Release]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+							<ClassName><![CDATA[Release]]></ClassName>
+							<ItemName><![CDATA[1412336243154]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[releaseMode]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.ALL_FROM_POOLS]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resourcePool]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[quantity]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[resources]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[{ lavadores }]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[seizeBlocks]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[movingGoHome]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpTaskPolicyType]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpTaskPriority]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpTaskMayPreemptOtherTasks]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpTaskPreemptionPolicy]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[wrapUpUsageState]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onReleaseUnit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onWrapUpTerminated]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>XYZ</InitialLocationType>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<Id>1785991884664</Id>
 						<TableReference>
 						</TableReference>
 					</InitializationDatabaseTableQuery>
@@ -7553,12 +8063,12 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-30</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-5</Y><Z>0</Z></Point>
-						<Point><X>-24.998</X><Y>-30.328</Y><Z>0</Z></Point>
-						<Point><X>-250.272</X><Y>-33.288</Y><Z>0</Z></Point>
-						<Point><X>-225.274</X><Y>-32.96</Y><Z>0</Z></Point>
-						<Point><X>-217.911</X><Y>-44.468</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-40</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-15</Y><Z>0</Z></Point>
+						<Point><X>-25</X><Y>-39.895</Y><Z>0</Z></Point>
+						<Point><X>-252.111</X><Y>-38.944</Y><Z>0</Z></Point>
+						<Point><X>-227.112</X><Y>-39.049</Y><Z>0</Z></Point>
+						<Point><X>-219.75</X><Y>-50.124</Y><Z>0</Z></Point>
 					</Points>
 					<Bidirectional>false</Bidirectional>
 					<SpeedLimit>false</SpeedLimit>
@@ -7589,7 +8099,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<Text>
 					<Id>1785933472288</Id>
 					<Name><![CDATA[text]]></Name>
-					<X>170</X><Y>20</Y>
+					<X>40</X><Y>20</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7612,7 +8122,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
     			<BarChart>
 					<Id>1785935238826</Id>
 					<Name><![CDATA[chart]]></Name>
-					<X>60</X><Y>-500</Y>
+					<X>0</X><Y>-410</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7740,7 +8250,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				<Text>
 					<Id>1785937831436</Id>
 					<Name><![CDATA[text1]]></Name>
-					<X>530</X><Y>-160</Y>
+					<X>620</X><Y>-480</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7799,7 +8309,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
     			<Histogram>
 					<Id>1785960935143</Id>
 					<Name><![CDATA[chart1]]></Name>
-					<X>120</X><Y>-720</Y>
+					<X>0</X><Y>-590</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7866,7 +8376,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
     			<Histogram>
 					<Id>1785960941428</Id>
 					<Name><![CDATA[chart2]]></Name>
-					<X>500</X><Y>-720</Y>
+					<X>280</X><Y>-590</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7932,8 +8442,8 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
     			</Histogram>
     			<Histogram>
 					<Id>1785960944389</Id>
-					<Name><![CDATA[chart3]]></Name>
-					<X>900</X><Y>-720</Y>
+					<Name><![CDATA[chartServico]]></Name>
+					<X>140</X><Y>-770</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7987,7 +8497,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 					</Bars>
 					<HistogramDataExpression>
 					<Id>1785960946156</Id>
-					<Expression><![CDATA[tmeServico.distribution]]></Expression>
+					<Expression><![CDATA[histServico]]></Expression>
 						<ColorPDF>-2448096</ColorPDF>
 						<ColorCDF>-2448096</ColorCDF>
 						<ColorLowPercent>-9807155</ColorLowPercent>
@@ -8000,7 +8510,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
     			<BarChart>
 					<Id>1785963053671</Id>
 					<Name><![CDATA[chart4]]></Name>
-					<X>600</X><Y>-470</Y>
+					<X>540</X><Y>-220</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8021,14 +8531,14 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 						</RecurrenceCode>
 					</RecurrenceProperties>
 					<EmbeddedIcon>false</EmbeddedIcon>
-					<Width>260</Width>
+					<Width>400</Width>
 					<Height>210</Height>
 					<BackgroundColor/>
 					<BorderColor/>
 					<ChartArea>
 						<XOffset>50</XOffset>
 						<YOffset>30</YOffset>
-						<Width>180</Width>
+						<Width>320</Width>
 						<Height>120</Height>
 						<BackgroundColor>-1</BackgroundColor>
 						<BorderColor>-16777216</BorderColor>
@@ -8071,171 +8581,10 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 						<RelativeWidth>0.8</RelativeWidth>
 					</Bars>
     			</BarChart>
-    			<TimePlot>
-					<Id>1785963119486</Id>
-					<Name><![CDATA[plot]]></Name>
-					<X>880</X><Y>-440</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<AutoUpdate>true</AutoUpdate>
-					<RecurrenceProperties>
-						<Id>1785963119484</Id>
-						<OccurrenceAtTime>true</OccurrenceAtTime>
-						<OccurrenceDate>1786003200000</OccurrenceDate>
-						<OccurrenceTime Class="CodeUnitValue">
-							<Code><![CDATA[0]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
-						</OccurrenceTime>
-						<RecurrenceCode Class="CodeUnitValue">
-							<Code><![CDATA[1]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
-						</RecurrenceCode>
-					</RecurrenceProperties>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Width>260</Width>
-					<Height>210</Height>
-					<BackgroundColor/>
-					<BorderColor/>
-					<ChartArea>
-						<XOffset>50</XOffset>
-						<YOffset>30</YOffset>
-						<Width>180</Width>
-						<Height>120</Height>
-						<BackgroundColor>-1</BackgroundColor>
-						<BorderColor>-16777216</BorderColor>
-						<GridColor>-12566464</GridColor>
-					</ChartArea>
-					<Legend>
-						<Place>SOUTH</Place>
-						<TextColor>-16777216</TextColor>
-						<Size>30</Size>
-					</Legend>
-					<Labels>
-						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
-						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
-						<TextColor>-12566464</TextColor>
-					</Labels>
-					<ShowLegend>true</ShowLegend>
-					<TimeWindowsMovementType>MOVEMENT_WITH_TIME</TimeWindowsMovementType>		
-					<TimeWindowUnits>MODEL_TIME_UNIT</TimeWindowUnits>
-					<VerScaleFromExpression><![CDATA[0]]></VerScaleFromExpression>
-					<VerScaleToExpression><![CDATA[6]]></VerScaleToExpression>
-					<VerScaleType>FIXED</VerScaleType>
-					<DrawLine>true</DrawLine>
-					<Interpolation>LINEAR</Interpolation>
-					<DatasetExpression>  
-						<Title><![CDATA[Ocupação do pátio ao longo do dia]]></Title>
-					<Id>1785963120580</Id>
-					<Expression><![CDATA[dataset]]></Expression>
-					<Color>-9728477</Color>
-					<Expression2><![CDATA[filaEntrada.size() + atendimentoChegada.size() + seizeBox.size()
-   + aguardaRetirada.size() + pagamento.size()]]></Expression2>
-					<Expression2Flag>true</Expression2Flag>
-						<PointStyle>NONE</PointStyle>
-						<LineWidth>1.0</LineWidth>
-					</DatasetExpression>
-					<DatasetExpression>  
-						<Title><![CDATA[Limite do pátio]]></Title>
-					<Id>1785977302580</Id>
-					<Expression><![CDATA[dataset1]]></Expression>
-					<Color>-65536</Color>
-					<Expression2><![CDATA[vagasPatio]]></Expression2>
-					<Expression2Flag>true</Expression2Flag>
-						<PointStyle>NONE</PointStyle>
-						<LineWidth>1.0</LineWidth>
-					</DatasetExpression>
-					<SamplesToKeep>500</SamplesToKeep>
-					<TimeWindowExpression><![CDATA[1440]]></TimeWindowExpression>
-					<FillAreaUnderLine>false</FillAreaUnderLine>
-					<LabelFormat>MODEL_TIME_UNITS</LabelFormat>
-    			</TimePlot>
-    			<BarChart>
-					<Id>1785963237047</Id>
-					<Name><![CDATA[Filas_médias]]></Name>
-					<X>1180</X><Y>-410</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<AutoUpdate>true</AutoUpdate>
-					<RecurrenceProperties>
-						<Id>1785963237045</Id>
-						<OccurrenceAtTime>true</OccurrenceAtTime>
-						<OccurrenceDate>1786003200000</OccurrenceDate>
-						<OccurrenceTime Class="CodeUnitValue">
-							<Code><![CDATA[0]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
-						</OccurrenceTime>
-						<RecurrenceCode Class="CodeUnitValue">
-							<Code><![CDATA[1]]></Code>
-							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
-						</RecurrenceCode>
-					</RecurrenceProperties>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Width>260</Width>
-					<Height>210</Height>
-					<BackgroundColor/>
-					<BorderColor/>
-					<ChartArea>
-						<XOffset>50</XOffset>
-						<YOffset>30</YOffset>
-						<Width>180</Width>
-						<Height>120</Height>
-						<BackgroundColor>-1</BackgroundColor>
-						<BorderColor>-16777216</BorderColor>
-						<GridColor>-12566464</GridColor>
-					</ChartArea>
-					<Legend>
-						<Place>SOUTH</Place>
-						<TextColor>-16777216</TextColor>
-						<Size>30</Size>
-					</Legend>
-					<Labels>
-						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
-						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
-						<TextColor>-12566464</TextColor>
-					</Labels>
-					<ShowLegend>true</ShowLegend>
-					<DataItem>
-					<Id>1785963238230</Id>
-					<Expression><![CDATA[filaEntrada.size()]]></Expression>
-					<Color>-4343957</Color>
-						<Title><![CDATA[Filas entrada]]></Title>
-					</DataItem>
-					<DataItem>
-					<Id>1785964425163</Id>
-					<Expression><![CDATA[seizeBox.size()]]></Expression>
-					<Color>-12004916</Color>
-						<Title><![CDATA[Espera box]]></Title>
-					</DataItem>
-					<DataItem>
-					<Id>1785964437684</Id>
-					<Expression><![CDATA[seizeAspirador.size()]]></Expression>
-					<Color>-8097537</Color>
-						<Title><![CDATA[Espera aspirador]]></Title>
-					</DataItem>
-					<DataItem>
-					<Id>1785964454867</Id>
-					<Expression><![CDATA[aguardaRetirada.size()]]></Expression>
-					<Color>-60269</Color>
-						<Title><![CDATA[Aguardando retirada]]></Title>
-					</DataItem>
-					<ScaleFromExpression><![CDATA[0]]></ScaleFromExpression>
-					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
-					<ScaleType>AUTO</ScaleType>
-					<Bars>
-						<Direction>UP</Direction>
-						<RelativeWidth>0.8</RelativeWidth>
-					</Bars>
-    			</BarChart>
     			<BarChart>
 					<Id>1785963330746</Id>
 					<Name><![CDATA[chart5]]></Name>
-					<X>1460</X><Y>-380</Y>
+					<X>740</X><Y>-450</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8324,6 +8673,188 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 						<RelativeWidth>0.8</RelativeWidth>
 					</Bars>
     			</BarChart>
+				<Control Type="RadioButtons">
+				 	<EmbeddedIcon>false</EmbeddedIcon>				
+					<Id>1785986821973</Id>
+					<Name><![CDATA[radio]]></Name>
+					<X>0</X><Y>520</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<BasicProperties Width="150" Height="260">
+                        <EmbeddedIcon>false</EmbeddedIcon>	
+						<TextColor>-16777216</TextColor>
+						<Enabled>true</Enabled>
+					</BasicProperties>
+					<ExtendedProperties>
+						<Font Name="Dialog" Size="11" Style="0"/>
+						<Orientation>VERTICAL</Orientation>
+						<Button><![CDATA[Janeiro]]></Button>
+						<Button><![CDATA[Fevereiro]]></Button>
+						<Button><![CDATA[Março]]></Button>
+						<Button><![CDATA[Abril]]></Button>
+						<Button><![CDATA[Junho]]></Button>
+						<Button><![CDATA[Julho]]></Button>
+						<Button><![CDATA[Agosto]]></Button>
+						<Button><![CDATA[Setembro]]></Button>
+						<Button><![CDATA[Outubro]]></Button>
+						<Button><![CDATA[Novembro]]></Button>
+						<Button><![CDATA[Dezembro]]></Button>
+						<LinkTo>true</LinkTo>
+					</ExtendedProperties>
+				</Control>
+				<RectangleNode>
+					<Id>1785991049158</Id>
+					<Name><![CDATA[nodeInterno]]></Name>
+					<X>890</X><Y>110</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<EmbeddedObject>
+						<Id>1785991049166</Id>
+						<ActiveObjectClass>
+							<PackageName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></PackageName>
+							<ClassName><![CDATA[AreaNodeDescriptor]]></ClassName>
+						</ActiveObjectClass>
+						<GenericParameterSubstitute>
+							<GenericParameterSubstituteReference>
+								<PackageName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></PackageName>
+								<ClassName><![CDATA[AreaNodeDescriptor]]></ClassName>
+								<ItemName><![CDATA[1574694148121]]></ItemName>
+							</GenericParameterSubstituteReference>
+						</GenericParameterSubstitute>
+						<Parameters>
+							<Parameter>
+								<Name><![CDATA[appliedClass]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[speedRestricted]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[maxSpeed]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[accessRestricted]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[accessRestrictionType]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[accessRestrictionCondition]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[capacity]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[throughput]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[schedule]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[avoidedIfClosed]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onEnter]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onEnterDenied]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onExit]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onOpen]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[onClose]]></Name>
+							</Parameter>
+						</Parameters>
+						<ReplicationFlag>false</ReplicationFlag>
+						<Replication Class="CodeValue">
+							<Code><![CDATA[100]]></Code>
+						</Replication>
+						<CollectionType>ARRAY_LIST_BASED</CollectionType>
+						<InitialLocationType>XYZ</InitialLocationType>
+						<ColumnCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</ColumnCode>
+						<RowCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</RowCode>
+						<LocationNameCode Class="CodeValue">
+							<Code><![CDATA[""]]></Code>
+						</LocationNameCode>
+						<InitializationType>SPECIFIED_NUMBER</InitializationType>
+						<InitializationDatabaseTableQuery>
+							<Id>1785991049165</Id>
+							<TableReference>
+							</TableReference>
+						</InitializationDatabaseTableQuery>
+						<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+						<QuantityColumn>
+						</QuantityColumn>
+					</EmbeddedObject>
+					<LineColor>-14774017</LineColor>
+					<FillColor/>
+					<LineWidth>1</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillMaterial>null</FillMaterial>
+					<LineStyle>DASHED</LineStyle>
+					<AttractorsLayout>random</AttractorsLayout>
+
+			<Presentation>
+				<Attractor>
+					<Id>1785991049160</Id>
+					<Name><![CDATA[attractor18]]></Name>
+					<X>985</X><Y>183.33333333333326</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>	
+				</Attractor>
+				<Attractor>
+					<Id>1785991049162</Id>
+					<Name><![CDATA[attractor19]]></Name>
+					<X>985</X><Y>256.66666666666663</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<Rotation>0.0</Rotation>	
+				</Attractor>
+			</Presentation>
+
+					<Sloped>false</Sloped>
+					<Slope>
+						<Id>1785991049156</Id>
+						<Name><![CDATA[nodeInterno]]></Name>
+						<X>0</X><Y>10</Y>
+						<PublicFlag>false</PublicFlag>
+						<PresentationFlag>true</PresentationFlag>
+						<ShowLabel>true</ShowLabel>
+						<Dx>20</Dx>
+						<Dy>0</Dy>
+						<Dz>0</Dz>
+						<AngleX>30</AngleX>
+						<AngleZ>0</AngleZ>
+						<SlopeType>angle</SlopeType>	
+					</Slope>
+
+					<Width>190</Width>
+					<Height>220</Height>
+					<Rotation>0.0</Rotation>
+				</RectangleNode>
 			</Presentation>
 
 				</Level>
@@ -8478,6 +9009,51 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 					<ShowLabel>true</ShowLabel>
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[double]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1785988055801</Id>
+					<Name><![CDATA[tInicioEtapa]]></Name>
+					<X>25</X><Y>100</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1785988071626</Id>
+					<Name><![CDATA[tServico]]></Name>
+					<X>25</X><Y>125</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1785991745123</Id>
+					<Name><![CDATA[tInterna]]></Name>
+					<X>25</X><Y>150</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
 					</Properties>
 				</Variable>
 			</Variables>
@@ -8666,6 +9242,21 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 			<CurrentLevel>1785886227585</CurrentLevel>
 			<ConnectionsId>1785886227580</ConnectionsId>
 			<Variables>
+				<Variable Class="PlainVariable">
+					<Id>1785990228668</Id>
+					<Name><![CDATA[variable]]></Name>
+					<X>20</X><Y>140</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
 				<Variable Class="Parameter">
 					<Id>1785886251736</Id>
 					<Name><![CDATA[muExterna]]></Name>
@@ -8875,7 +9466,7 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 	<TimeAccuracy>1.0E-5</TimeAccuracy>
 	<Frame>
 		<Id>1785780458360</Id>
-		<Width>2800</Width>
+		<Width>2960</Width>
 		<Height>2160</Height>
 	</Frame>
 	<Database>
@@ -8960,6 +9551,9 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 				</Parameter>
 				<Parameter>
 					<ParameterName><![CDATA[nSemanas]]></ParameterName>
+				</Parameter>
+				<Parameter>
+					<ParameterName><![CDATA[fracAspiracao]]></ParameterName>
 				</Parameter>
 			</Parameters>
 			<PresentationProperties>
