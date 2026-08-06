@@ -118,7 +118,7 @@
 				<Output>
 					<Id>1785963673340</Id>
 					<Name><![CDATA[outAtendidosSemana]]></Name>
-					<X>1000</X><Y>-160</Y>
+					<X>1080</X><Y>-440</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -138,7 +138,7 @@
 				<Output>
 					<Id>1785963697379</Id>
 					<Name><![CDATA[outRecusadosSabado]]></Name>
-					<X>1000</X><Y>-130</Y>
+					<X>1080</X><Y>-410</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -158,7 +158,7 @@
 				<Output>
 					<Id>1785963719255</Id>
 					<Name><![CDATA[outLeadTime]]></Name>
-					<X>1000</X><Y>-100</Y>
+					<X>1080</X><Y>-380</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -178,7 +178,7 @@
 				<Output>
 					<Id>1785963750906</Id>
 					<Name><![CDATA[outTempoParado]]></Name>
-					<X>1000</X><Y>-70</Y>
+					<X>1080</X><Y>-350</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -198,7 +198,7 @@
 				<Output>
 					<Id>1785963765154</Id>
 					<Name><![CDATA[outPiorEsperaSabado]]></Name>
-					<X>1000</X><Y>-190</Y>
+					<X>1080</X><Y>-470</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -334,6 +334,156 @@
 						<Type><![CDATA[HistogramData]]></Type>        
 						<InitialValue Class="CodeValue">
 							<Code><![CDATA[new HistogramSmartData(40, 5, true, true, 0.025, 0.975)]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1786019098935</Id>
+					<Name><![CDATA[somaFilaExt]]></Name>
+					<X>470</X><Y>500</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1786019100929</Id>
+					<Name><![CDATA[somaDeslExt]]></Name>
+					<X>470</X><Y>520</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1786019102469</Id>
+					<Name><![CDATA[somaProcExt]]></Name>
+					<X>470</X><Y>540</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1786019104171</Id>
+					<Name><![CDATA[somaDeslAsp]]></Name>
+					<X>470</X><Y>560</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1786019105694</Id>
+					<Name><![CDATA[somaFilaAsp]]></Name>
+					<X>470</X><Y>580</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1786019107232</Id>
+					<Name><![CDATA[somaProcAsp]]></Name>
+					<X>470</X><Y>600</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1786019109104</Id>
+					<Name><![CDATA[somaDeslInt]]></Name>
+					<X>470</X><Y>620</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1786019110728</Id>
+					<Name><![CDATA[somaProcInt]]></Name>
+					<X>470</X><Y>640</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1786019167402</Id>
+					<Name><![CDATA[nCarrosCompletos]]></Name>
+					<X>630</X><Y>500</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1786020175280</Id>
+					<Name><![CDATA[somaFilaInt]]></Name>
+					<X>470</X><Y>660</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -1393,39 +1543,6 @@
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1785991872770</Id>
-					<Name><![CDATA[connector31]]></Name>
-					<X>200</X><Y>-130</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[limpezaInterna]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Delay]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[moveParaInterno]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[MoveTo]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>1920</X><Y>1100</Y></Point>
-						<Point><X>1850</X><Y>1100</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
 					<Id>1785991951124</Id>
 					<Name><![CDATA[connector27]]></Name>
 					<X>1800</X><Y>970</Y>
@@ -1455,7 +1572,7 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>210</X><Y>0</Y></Point>
+						<Point><X>80</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -1555,6 +1672,72 @@
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>170</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1786020108028</Id>
+					<Name><![CDATA[connector31]]></Name>
+					<X>0</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[filaInterna]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Queue]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[moveParaInterno]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[MoveTo]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>1990</X><Y>970</Y></Point>
+						<Point><X>1920</X><Y>970</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1786020110917</Id>
+					<Name><![CDATA[connector34]]></Name>
+					<X>2030</X><Y>970</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[filaInterna]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Queue]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[limpezaInterna]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Delay]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>90</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 			</Connectors>
@@ -2356,6 +2539,9 @@ agent.tInterna = lognormal(agent.lavador.muInterna, agent.lavador.sigmaInterna, 
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.tInicioEtapa = time(MINUTE);]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onAtExit]]></Name>
@@ -2874,6 +3060,10 @@ agent.tInterna = lognormal(agent.lavador.muInterna, agent.lavador.sigmaInterna, 
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.tFilaExt = time(MINUTE) - agent.tInicioEtapa;
+agent.tInicioEtapa = time(MINUTE);]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
@@ -2981,6 +3171,7 @@ agent.tInterna = lognormal(agent.lavador.muInterna, agent.lavador.sigmaInterna, 
 nEspera[agent.diaChegada]++;
 double e = time() - agent.tChegada;
 if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;
+agent.tDeslExt = time(MINUTE) - agent.tInicioEtapa;
 agent.tInicioEtapa = time(MINUTE);]]></Code>
 							</Value>
 						</Parameter>
@@ -2990,7 +3181,8 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.tServico += time(MINUTE) - agent.tInicioEtapa;]]></Code>
+								<Code><![CDATA[agent.tProcExt = time(MINUTE) - agent.tInicioEtapa;
+agent.tInicioEtapa = time(MINUTE);]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -3659,6 +3851,10 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.tDeslAsp = time(MINUTE) - agent.tInicioEtapa;
+agent.tInicioEtapa = time(MINUTE);]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
@@ -3674,6 +3870,10 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.tFilaAsp = time(MINUTE) - agent.tInicioEtapa;
+agent.tInicioEtapa = time(MINUTE);]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
@@ -3778,9 +3978,6 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.tInicioEtapa = time(MINUTE);]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onAtExit]]></Name>
@@ -3788,7 +3985,8 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.tServico += time(MINUTE) - agent.tInicioEtapa;]]></Code>
+								<Code><![CDATA[agent.tProcAsp = time(MINUTE) - agent.tInicioEtapa;
+agent.tInicioEtapa = time(MINUTE);]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6491,7 +6689,7 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 				<EmbeddedObject>
 					<Id>1785991856177</Id>
 					<Name><![CDATA[moveParaInterno]]></Name>
-					<X>2010</X><Y>950</Y>
+					<X>1880</X><Y>950</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6662,12 +6860,12 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[2]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[maximumCapacity]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[true]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[entityLocation]]></Name>
@@ -6686,9 +6884,6 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.tInicioEtapa = time(MINUTE);]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onAtExit]]></Name>
@@ -6696,8 +6891,20 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.tServico += time(MINUTE) - agent.tInicioEtapa;
-histServico.add(agent.tServico);]]></Code>
+								<Code><![CDATA[agent.tProcInt = time(MINUTE) - agent.tInicioEtapa;
+histServico.add(agent.tProcExt + agent.tProcAsp + agent.tProcInt);
+
+somaFilaExt += agent.tFilaExt;
+somaDeslExt += agent.tDeslExt;
+somaProcExt += agent.tProcExt;
+somaDeslAsp += agent.tDeslAsp;
+somaFilaAsp += agent.tFilaAsp;
+somaProcAsp += agent.tProcAsp;
+somaDeslInt += agent.tDeslInt;
+somaProcInt += agent.tProcInt;
+somaFilaInt += agent.tFilaInt;
+nCarrosCompletos++;
+]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -6819,6 +7026,117 @@ histServico.add(agent.tServico);]]></Code>
 					<InitializationType>SPECIFIED_NUMBER</InitializationType>
 					<InitializationDatabaseTableQuery>
 						<Id>1785991884664</Id>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1786020079175</Id>
+					<Name><![CDATA[filaInterna]]></Name>
+					<X>1990</X><Y>950</Y>
+					<Label><X>-5</X><Y>-15</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Queue]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+							<ClassName><![CDATA[Queue]]></ClassName>
+							<ItemName><![CDATA[1412336242932]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[capacity]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[10]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[maximumCapacity]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[entityLocation]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[nodeInterno]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[queuing]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[priority]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[comparison]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[enableTimeout]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[timeout]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[enablePreemption]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[forceStatisticsCollection]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.tDeslInt = time(MINUTE) - agent.tInicioEtapa;
+agent.tInicioEtapa = time(MINUTE);]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onAtExit]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.tFilaInt = time(MINUTE) - agent.tInicioEtapa;
+agent.tInicioEtapa = time(MINUTE);]]></Code>
+							</Value>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExitTimeout]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onExitPreempted]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[onRemove]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>XYZ</InitialLocationType>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<Id>1786020079173</Id>
 						<TableReference>
 						</TableReference>
 					</InitializationDatabaseTableQuery>
@@ -7445,7 +7763,7 @@ histServico.add(agent.tServico);]]></Code>
 					<Name><![CDATA[attractor2]]></Name>
 					<X>755</X><Y>193.33333333333331</Y>
 					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
@@ -7457,7 +7775,7 @@ histServico.add(agent.tServico);]]></Code>
 					<Name><![CDATA[attractor3]]></Name>
 					<X>755</X><Y>266.66666666666663</Y>
 					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
@@ -7631,7 +7949,7 @@ histServico.add(agent.tServico);]]></Code>
 					<Name><![CDATA[attractor1]]></Name>
 					<X>985</X><Y>405</Y>
 					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
@@ -8250,7 +8568,7 @@ histServico.add(agent.tServico);]]></Code>
 				<Text>
 					<Id>1785937831436</Id>
 					<Name><![CDATA[text1]]></Name>
-					<X>620</X><Y>-480</Y>
+					<X>1670</X><Y>-900</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8309,7 +8627,7 @@ histServico.add(agent.tServico);]]></Code>
     			<Histogram>
 					<Id>1785960935143</Id>
 					<Name><![CDATA[chart1]]></Name>
-					<X>0</X><Y>-590</Y>
+					<X>540</X><Y>-300</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8376,7 +8694,7 @@ histServico.add(agent.tServico);]]></Code>
     			<Histogram>
 					<Id>1785960941428</Id>
 					<Name><![CDATA[chart2]]></Name>
-					<X>280</X><Y>-590</Y>
+					<X>780</X><Y>-300</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8443,7 +8761,7 @@ histServico.add(agent.tServico);]]></Code>
     			<Histogram>
 					<Id>1785960944389</Id>
 					<Name><![CDATA[chartServico]]></Name>
-					<X>140</X><Y>-770</Y>
+					<X>1000</X><Y>-300</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8510,7 +8828,7 @@ histServico.add(agent.tServico);]]></Code>
     			<BarChart>
 					<Id>1785963053671</Id>
 					<Name><![CDATA[chart4]]></Name>
-					<X>540</X><Y>-220</Y>
+					<X>1240</X><Y>-300</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8584,7 +8902,7 @@ histServico.add(agent.tServico);]]></Code>
     			<BarChart>
 					<Id>1785963330746</Id>
 					<Name><![CDATA[chart5]]></Name>
-					<X>740</X><Y>-450</Y>
+					<X>780</X><Y>-520</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8855,6 +9173,116 @@ histServico.add(agent.tServico);]]></Code>
 					<Height>220</Height>
 					<Rotation>0.0</Rotation>
 				</RectangleNode>
+    			<BarChart>
+					<Id>1786018760517</Id>
+					<Name><![CDATA[chart3]]></Name>
+					<X>540</X><Y>-520</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AutoUpdate>true</AutoUpdate>
+					<RecurrenceProperties>
+						<Id>1786018760515</Id>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1786089600000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+						</RecurrenceCode>
+					</RecurrenceProperties>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>260</Width>
+					<Height>210</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>50</XOffset>
+						<YOffset>30</YOffset>
+						<Width>180</Width>
+						<Height>120</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>30</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<ShowLegend>true</ShowLegend>
+					<DataItem>
+					<Id>1786018762923</Id>
+					<Expression><![CDATA[nCarrosCompletos > 0 ? somaFilaExt / nCarrosCompletos : 0]]></Expression>
+					<Color>-3137392</Color>
+						<Title><![CDATA[Externa — fila]]></Title>
+					</DataItem>
+					<DataItem>
+					<Id>1786018788042</Id>
+					<Expression><![CDATA[nCarrosCompletos > 0 ? somaDeslExt / nCarrosCompletos : 0]]></Expression>
+					<Color>-32944</Color>
+						<Title><![CDATA[Externa — deslocamento]]></Title>
+					</DataItem>
+					<DataItem>
+					<Id>1786018788892</Id>
+					<Expression><![CDATA[nCarrosCompletos > 0 ? somaProcExt / nCarrosCompletos : 0]]></Expression>
+					<Color>-13447886</Color>
+						<Title><![CDATA[Externa — processo]]></Title>
+					</DataItem>
+					<DataItem>
+					<Id>1786019688251</Id>
+					<Expression><![CDATA[nCarrosCompletos > 0 ? somaDeslAsp / nCarrosCompletos : 0]]></Expression>
+					<Color>-9404272</Color>
+						<Title><![CDATA[Aspiração — deslocamento]]></Title>
+					</DataItem>
+					<DataItem>
+					<Id>1786019689420</Id>
+					<Expression><![CDATA[nCarrosCompletos > 0 ? somaFilaAsp / nCarrosCompletos : 0]]></Expression>
+					<Color>-7667573</Color>
+						<Title><![CDATA[Aspiração — fila]]></Title>
+					</DataItem>
+					<DataItem>
+					<Id>1786019690414</Id>
+					<Expression><![CDATA[nCarrosCompletos > 0 ? somaProcAsp / nCarrosCompletos : 0]]></Expression>
+					<Color>-23296</Color>
+						<Title><![CDATA[Aspiração — processo]]></Title>
+					</DataItem>
+					<DataItem>
+					<Id>1786019691491</Id>
+					<Expression><![CDATA[nCarrosCompletos > 0 ? somaFilaInt / nCarrosCompletos : 0]]></Expression>
+					<Color>-4343957</Color>
+						<Title><![CDATA[Interna — fila]]></Title>
+					</DataItem>
+					<DataItem>
+					<Id>1786019692952</Id>
+					<Expression><![CDATA[nCarrosCompletos > 0 ? somaDeslInt / nCarrosCompletos : 0]]></Expression>
+					<Color>-12004916</Color>
+						<Title><![CDATA[Interna — deslocamento]]></Title>
+					</DataItem>
+					<DataItem>
+					<Id>1786019724545</Id>
+					<Expression><![CDATA[nCarrosCompletos > 0 ? somaProcInt / nCarrosCompletos : 0]]></Expression>
+					<Color>-8097537</Color>
+						<Title><![CDATA[Interna — processo]]></Title>
+					</DataItem>
+					<ScaleFromExpression><![CDATA[0]]></ScaleFromExpression>
+					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
+					<ScaleType>AUTO</ScaleType>
+					<Bars>
+						<Direction>UP</Direction>
+						<RelativeWidth>0.8</RelativeWidth>
+					</Bars>
+    			</BarChart>
 			</Presentation>
 
 				</Level>
@@ -9027,8 +9455,8 @@ histServico.add(agent.tServico);]]></Code>
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
-					<Id>1785988071626</Id>
-					<Name><![CDATA[tServico]]></Name>
+					<Id>1785991745123</Id>
+					<Name><![CDATA[tInterna]]></Name>
 					<X>25</X><Y>125</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -9042,9 +9470,129 @@ histServico.add(agent.tServico);]]></Code>
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
-					<Id>1785991745123</Id>
-					<Name><![CDATA[tInterna]]></Name>
-					<X>25</X><Y>150</Y>
+					<Id>1786018435324</Id>
+					<Name><![CDATA[tFilaExt]]></Name>
+					<X>220</X><Y>20</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1786018450113</Id>
+					<Name><![CDATA[tDeslExt]]></Name>
+					<X>220</X><Y>50</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0	]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1786018453062</Id>
+					<Name><![CDATA[tProcExt]]></Name>
+					<X>220</X><Y>80</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1786018454734</Id>
+					<Name><![CDATA[tDeslAsp]]></Name>
+					<X>220</X><Y>110</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1786018458863</Id>
+					<Name><![CDATA[tFilaAsp]]></Name>
+					<X>220</X><Y>140</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1786018460396</Id>
+					<Name><![CDATA[tProcAsp]]></Name>
+					<X>220</X><Y>170</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1786018462059</Id>
+					<Name><![CDATA[tDeslInt]]></Name>
+					<X>220</X><Y>200</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1786018464201</Id>
+					<Name><![CDATA[tProcInt]]></Name>
+					<X>220</X><Y>230</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1786019630196</Id>
+					<Name><![CDATA[tFilaInt]]></Name>
+					<X>220</X><Y>260</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
