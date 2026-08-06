@@ -460,7 +460,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1786019167402</Id>
 					<Name><![CDATA[nCarrosCompletos]]></Name>
-					<X>630</X><Y>500</Y>
+					<X>470</X><Y>680</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7504,7 +7504,7 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>270.0</Rotation>	
+					<Rotation>180.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1786022685934</Id>
@@ -7516,7 +7516,7 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>270.0</Rotation>	
+					<Rotation>180.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1786022685936</Id>
@@ -7528,7 +7528,7 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>270.0</Rotation>	
+					<Rotation>0.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1786022685938</Id>
@@ -7540,7 +7540,7 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>270.0</Rotation>	
+					<Rotation>0.0</Rotation>	
 				</Attractor>
 			</Presentation>
 
@@ -8243,11 +8243,11 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 						<Point><X>0</X><Y>-50</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
 						<Point><X>-25</X><Y>-50</Y><Z>0</Z></Point>
-						<Point><X>-800</X><Y>-50</Y><Z>0</Z></Point>
-						<Point><X>-775</X><Y>-50</Y><Z>0</Z></Point>
-						<Point><X>-815</X><Y>-30</Y><Z>0</Z></Point>
+						<Point><X>-860</X><Y>-50</Y><Z>0</Z></Point>
+						<Point><X>-835</X><Y>-50</Y><Z>0</Z></Point>
+						<Point><X>-860</X><Y>-25</Y><Z>0</Z></Point>
 						<Point><X>-860</X><Y>30</Y><Z>0</Z></Point>
-						<Point><X>-845</X><Y>10</Y><Z>0</Z></Point>
+						<Point><X>-860</X><Y>5</Y><Z>0</Z></Point>
 						<Point><X>-835</X><Y>10</Y><Z>0</Z></Point>
 					</Points>
 					<Bidirectional>true</Bidirectional>
@@ -8373,19 +8373,19 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>0.0</Rotation>	
+					<Rotation>180.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1785888204965</Id>
 					<Name><![CDATA[attractor4]]></Name>
-					<X>1266.666666666667</X><Y>133.333</Y>
+					<X>1268.333</X><Y>167.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>0.0</Rotation>	
+					<Rotation>180.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1785888204967</Id>
@@ -8397,19 +8397,19 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>0.0</Rotation>	
+					<Rotation>180.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1785888204969</Id>
 					<Name><![CDATA[attractor9]]></Name>
-					<X>1266.666666666667</X><Y>166.66700000000003</Y>
+					<X>1268.333</X><Y>134.333</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>0.0</Rotation>	
+					<Rotation>180.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1785888204971</Id>
@@ -8421,7 +8421,7 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>0.0</Rotation>	
+					<Rotation>180.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1785888204973</Id>
@@ -8433,7 +8433,7 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>0.0</Rotation>	
+					<Rotation>180.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1785888204975</Id>
@@ -8445,7 +8445,7 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>0.0</Rotation>	
+					<Rotation>180.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1785888204977</Id>
@@ -8457,7 +8457,7 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>0.0</Rotation>	
+					<Rotation>180.0</Rotation>	
 				</Attractor>
 				<Attractor>
 					<Id>1785888204979</Id>
@@ -8469,7 +8469,7 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<Rotation>0.0</Rotation>	
+					<Rotation>180.0</Rotation>	
 				</Attractor>
 			</Presentation>
 
@@ -8706,7 +8706,7 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 				<Text>
 					<Id>1785937831436</Id>
 					<Name><![CDATA[text1]]></Name>
-					<X>1670</X><Y>-900</Y>
+					<X>1280</X><Y>-170</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9787,8 +9787,8 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 
 			<Presentation>
 				<Figure3D>
-					<Id>1785954574219</Id>
-					<Name><![CDATA[worker]]></Name>
+					<Id>1786049731304</Id>
+					<Name><![CDATA[worker1]]></Name>
 					<X>0</X><Y>-10</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
@@ -9799,39 +9799,64 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[lavarapidonogueira]]></PackageName>
-						<ClassName><![CDATA[3d/worker.dae]]></ClassName>
+						<ClassName><![CDATA[3d/worker_5_m.glb]]></ClassName>
 					</ResourceReference>
 					<ColorTable>
 						<ColorMapping>
-							<Name><![CDATA[<Color1>]]></Name>
-							<OriginalColor>-3355444</OriginalColor>
+							<Name><![CDATA[body]]></Name>
+							<OriginalColor>-3445958</OriginalColor>
 						</ColorMapping>
 						<ColorMapping>
-							<Name><![CDATA[Material__4__Surf]]></Name>
-							<OriginalColor>-3355444</OriginalColor>
+							<Name><![CDATA[eyes]]></Name>
+							<OriginalColor>-1</OriginalColor>
 						</ColorMapping>
 						<ColorMapping>
-							<Name><![CDATA[Material__2__Surf]]></Name>
-							<OriginalColor>-4483748</OriginalColor>
+							<Name><![CDATA[hair]]></Name>
+							<OriginalColor>-15528181</OriginalColor>
 						</ColorMapping>
 						<ColorMapping>
-							<Name><![CDATA[Material__6__Surf]]></Name>
-							<OriginalColor>-14056500</OriginalColor>
+							<Name><![CDATA[hardhat]]></Name>
+							<OriginalColor>-36352</OriginalColor>
 						</ColorMapping>
 						<ColorMapping>
-							<Name><![CDATA[Material__5__Surf]]></Name>
-							<OriginalColor>-3372544</OriginalColor>
+							<Name><![CDATA[hpd_caps]]></Name>
+							<OriginalColor>-36352</OriginalColor>
 						</ColorMapping>
 						<ColorMapping>
-							<Name><![CDATA[Material__3__Surf]]></Name>
-							<OriginalColor>-13624320</OriginalColor>
+							<Name><![CDATA[hpd_frame]]></Name>
+							<OriginalColor>-16777216</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[overalls]]></Name>
+							<OriginalColor>-16119286</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[shirt]]></Name>
+							<OriginalColor>-15198694</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[shoes]]></Name>
+							<OriginalColor>-11524592</OriginalColor>
 						</ColorMapping>
 					</ColorTable>
 					<AutoScale>true</AutoScale>
 					<Scale>1.0</Scale>
 					<Rotation>0.0</Rotation>
 					<AxisOrder>YZX_AXIS_ORDER</AxisOrder>
-					<SelectedAnimationPose></SelectedAnimationPose>
+					<SelectedAnimationPose>idle</SelectedAnimationPose>
+					<AnimationPose><![CDATA[carry]]></AnimationPose>
+					<AnimationPose><![CDATA[drive]]></AnimationPose>
+					<AnimationPose><![CDATA[idle]]></AnimationPose>
+					<AnimationPose><![CDATA[lie]]></AnimationPose>
+					<AnimationPose><![CDATA[lie_side]]></AnimationPose>
+					<AnimationPose><![CDATA[run_right]]></AnimationPose>
+					<AnimationPose><![CDATA[run_left]]></AnimationPose>
+					<AnimationPose><![CDATA[sit_desk]]></AnimationPose>
+					<AnimationPose><![CDATA[sit]]></AnimationPose>
+					<AnimationPose><![CDATA[stand_desk]]></AnimationPose>
+					<AnimationPose><![CDATA[stand]]></AnimationPose>
+					<AnimationPose><![CDATA[walk_right]]></AnimationPose>
+					<AnimationPose><![CDATA[walk_left]]></AnimationPose>
 					<ApplyShading>true</ApplyShading>
 					<InternalLighting>OFF</InternalLighting>
 					<IgnoreSceneLights>false</IgnoreSceneLights>
@@ -9968,14 +9993,14 @@ agent.tInicioEtapa = time(MINUTE);]]></Code>
 			<Location>FILE_SYSTEM</Location>
 		</Resource>
 		<Resource>
-			<Id>1785954580225</Id>
-			<Path><![CDATA[3d/worker.dae]]></Path>
+			<Id>1785957432604</Id>
+			<Path><![CDATA[3d/container.dae]]></Path>
 			<ReferencedFromUserCode>false</ReferencedFromUserCode>
 			<Location>FILE_SYSTEM</Location>
 		</Resource>
 		<Resource>
-			<Id>1785957432604</Id>
-			<Path><![CDATA[3d/container.dae]]></Path>
+			<Id>1786049734972</Id>
+			<Path><![CDATA[3d/worker_5_m.glb]]></Path>
 			<ReferencedFromUserCode>false</ReferencedFromUserCode>
 			<Location>FILE_SYSTEM</Location>
 		</Resource>
