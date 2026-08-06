@@ -327,6 +327,21 @@
 						</InitialValue>
 					</Properties>
 				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1785977157140</Id>
+					<Name><![CDATA[piorEsperaSabado]]></Name>
+					<X>600</X><Y>510</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
 				<Variable Class="Parameter">
 					<Id>1785934884003</Id>
 					<Name><![CDATA[pDiaPolimento]]></Name>
@@ -2812,7 +2827,9 @@ chegadosDia[agent.diaChegada]++;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[double e = time() - agent.tChegada;
+								<Code><![CDATA[somaEspera[agent.diaChegada] += time() - agent.tChegada;
+nEspera[agent.diaChegada]++;
+double e = time() - agent.tChegada;
 if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Code>
 							</Value>
 						</Parameter>
@@ -8105,8 +8122,8 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 					<TimeWindowsMovementType>MOVEMENT_WITH_TIME</TimeWindowsMovementType>		
 					<TimeWindowUnits>MODEL_TIME_UNIT</TimeWindowUnits>
 					<VerScaleFromExpression><![CDATA[0]]></VerScaleFromExpression>
-					<VerScaleToExpression><![CDATA[1]]></VerScaleToExpression>
-					<VerScaleType>AUTO</VerScaleType>
+					<VerScaleToExpression><![CDATA[6]]></VerScaleToExpression>
+					<VerScaleType>FIXED</VerScaleType>
 					<DrawLine>true</DrawLine>
 					<Interpolation>LINEAR</Interpolation>
 					<DatasetExpression>  
@@ -8120,8 +8137,18 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 						<PointStyle>NONE</PointStyle>
 						<LineWidth>1.0</LineWidth>
 					</DatasetExpression>
-					<SamplesToKeep>100</SamplesToKeep>
-					<TimeWindowExpression><![CDATA[100]]></TimeWindowExpression>
+					<DatasetExpression>  
+						<Title><![CDATA[Limite do pátio]]></Title>
+					<Id>1785977302580</Id>
+					<Expression><![CDATA[dataset1]]></Expression>
+					<Color>-65536</Color>
+					<Expression2><![CDATA[vagasPatio]]></Expression2>
+					<Expression2Flag>true</Expression2Flag>
+						<PointStyle>NONE</PointStyle>
+						<LineWidth>1.0</LineWidth>
+					</DatasetExpression>
+					<SamplesToKeep>500</SamplesToKeep>
+					<TimeWindowExpression><![CDATA[1440]]></TimeWindowExpression>
 					<FillAreaUnderLine>false</FillAreaUnderLine>
 					<LabelFormat>MODEL_TIME_UNITS</LabelFormat>
     			</TimePlot>
@@ -8175,25 +8202,25 @@ if (agent.diaChegada == 7 && e > piorEsperaSabado) piorEsperaSabado = e;]]></Cod
 					<ShowLegend>true</ShowLegend>
 					<DataItem>
 					<Id>1785963238230</Id>
-					<Expression><![CDATA[filaEntrada.statsSize.mean()]]></Expression>
+					<Expression><![CDATA[filaEntrada.size()]]></Expression>
 					<Color>-4343957</Color>
 						<Title><![CDATA[Filas entrada]]></Title>
 					</DataItem>
 					<DataItem>
 					<Id>1785964425163</Id>
-					<Expression><![CDATA[seizeBox.statsSize.mean()]]></Expression>
+					<Expression><![CDATA[seizeBox.size()]]></Expression>
 					<Color>-12004916</Color>
 						<Title><![CDATA[Espera box]]></Title>
 					</DataItem>
 					<DataItem>
 					<Id>1785964437684</Id>
-					<Expression><![CDATA[seizeAspirador.statsSize.mean()]]></Expression>
+					<Expression><![CDATA[seizeAspirador.size()]]></Expression>
 					<Color>-8097537</Color>
 						<Title><![CDATA[Espera aspirador]]></Title>
 					</DataItem>
 					<DataItem>
 					<Id>1785964454867</Id>
-					<Expression><![CDATA[aguardaRetirada.statsSize.mean()]]></Expression>
+					<Expression><![CDATA[aguardaRetirada.size()]]></Expression>
 					<Color>-60269</Color>
 						<Title><![CDATA[Aguardando retirada]]></Title>
 					</DataItem>
